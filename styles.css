@@ -57,8 +57,8 @@ body{
 
 .button {
     display: inline-block;
-    padding: 10px 15px;
-    font-size: 24px;
+    padding: 5px 10px;
+    font-size: 20px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -70,10 +70,25 @@ body{
     box-shadow: 0 9px #989191;
   }
   
-  .button:hover {background-color: #3e8e41}
+  .button:hover {background-color: #c8e6c9}
   
   .button:active {
-    background-color: #3e8e41;
+    background-color: #a3e8a5;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+  }
+
+  button {
+    display: inline-block;
+    padding: 2px 2px;
+    font-size: 1px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #050202;
+    background-color: #cbd7d2;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #51826b;
   }
